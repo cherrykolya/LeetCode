@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "leetcode"
+version = "0.1.0"
+description = ""
+authors = ["cherrykolya <66125757+cherrykolya@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pre-commit = "^2.20.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
